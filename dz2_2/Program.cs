@@ -2,7 +2,7 @@
 645 -> 5
 78 -> третьей цифры нет
 32679 -> 6*/
-Console.WriteLine("Введите число в фомате "1234"");
+Console.WriteLine("Введите число в фомате XXXX");
 int Number = Convert.ToInt32(Console.ReadLine());
 if
     (Number/100 < 1) 

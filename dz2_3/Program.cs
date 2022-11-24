@@ -1,4 +1,4 @@
-﻿//*Задача 15: Напишите программу, которая принимает на вход цифру, 
+﻿/*Задача 15: Напишите программу, которая принимает на вход цифру, 
 обозначающую день недели, и проверяет, является ли этот день выходным.
 6 -> да
 7 -> да
@@ -10,10 +10,8 @@ string txtResult = "";
 
 if (dayNumber > 5) 
 {
-    txtResult = $". Этот день недели - выходной!";
+    txtResult = $". выходной";
 }
-else txtResult = $", рабочий день недели.";
+else txtResult = $", рабочий";
 
-System.Console.WriteLine();
 System.Console.WriteLine($"{dayNumber}-й день недели - это {Days[dayNumber - 1]}{txtResult}");
-System.Console.WriteLine();
