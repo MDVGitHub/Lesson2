@@ -5,4 +5,4 @@
 Console.WriteLine("Введите число");
 int Number1 = Convert.ToInt32(Console.ReadLine());
 string Number2 = Convert.ToString(Number1);
-Console.WriteLine($"Второй символ введенного числа это:" +Number2[1]);
+Console.WriteLine($"Второй символ введенного числа это:" + Number2[1]);

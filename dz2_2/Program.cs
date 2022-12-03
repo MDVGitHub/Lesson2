@@ -5,11 +5,11 @@
 Console.WriteLine("Введите число в фомате XXXX");
 int Number = Convert.ToInt32(Console.ReadLine());
 if
-    (Number/100 < 1) 
+    (Number / 100 < 1)
     Console.WriteLine("третьей цифры нет");
 else
     if
         (Number / 1000 > 0)
-        Console.WriteLine($"Третья цифра {Number / 10 % 10}");
-    else
-        Console.WriteLine($"Третья цифра {Number % 10}");
+    Console.WriteLine($"Третья цифра {Number / 10 % 10}");
+else
+    Console.WriteLine($"Третья цифра {Number % 10}");
